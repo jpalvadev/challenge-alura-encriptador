@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js" defer></script>
+        <title>Desencriptator 2000!</title>
+    </head>
+    <body>
+        <main class="container">
+            <div class="left">
+                <img src="./assets/alogo.png" alt="logo" />
+            </div>
+            <div class="middle">
+                <textarea
+                    id="comments"
+                    class="middle__textarea"
+                    placeholder="Ingrese el texto aqui"
+                ></textarea>
+                <div class="middle__container">
+                    <div class="middle__warning">
+                        <img
+                            src="./assets/exclamation.png"
+                            alt="warning icon"
+                        />
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="middle__btns">
+                        <button id="btn-encriptar" class="btn">
+                            Encriptar
+                        </button>
+                        <button id="btn-desencriptar" class="btn--outline">
+                            Desencriptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p class="right__text"></p>
+                <div class="right__no-mensaje">
+                    <img src="./assets/comunie.png" alt="no mensaje imagen" />
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <button id="btn-copiar" class="btn--outline">Copiar</button>
+            </div>
+        </main>
+    </body>
+</html>
