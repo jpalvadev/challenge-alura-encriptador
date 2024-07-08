@@ -4,7 +4,7 @@ Este repositorio contiene un encriptador-desencriptador desarrollado como parte 
 
 ## Descripción del Proyecto
 
-El proyecto sigue parte de la maquetación proporcionada en el challenge, pero se han tomado ciertas libertades en el diseño y el funcionamiento para adaptarlo a un estilo visual propio.
+El proyecto sigue parte de la maquetación proporcionada en el challenge, pero se han tomado ciertas libertades en el diseño y el funcionamiento para adaptarlo a un estilo propio.
 
 ## Uso
 
@@ -14,5 +14,9 @@ El proyecto sigue parte de la maquetación proporcionada en el challenge, pero s
 
 ## Libertades Tomadas
 
--   **Maquetación Personalizada**: Se modificaron los aspectos visuales para crear un diseño único.
+-   **Maquetación Personalizada**: Se modificaron aspectos visuales, pero se mantuvieron los lineamientos fundamentales.
 -   **Funcionalidad del Botón Copiar**: Se mejoró la funcionalidad del botón copiar para que pegue el texto directamente en el input del usuario, optimizando la experiencia y reduciendo los pasos necesarios.
+
+## Enlace a la Aplicación
+
+Puedes acceder a la aplicación en el siguiente enlace: [Encriptador-Desencriptador](https://jpalvadev.github.io/challenge-alura-encriptador/)
