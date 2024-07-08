@@ -48,5 +48,4 @@ btnCopiar.addEventListener('click', () => {
 
 userInput.addEventListener('input', () => {
     userInput.style.height = userInput.scrollHeight + 'px';
-    console.log('fddf');
 });
