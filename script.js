@@ -45,3 +45,8 @@ btnCopiar.addEventListener('click', () => {
     if (!textResult.textContent) return;
     userInput.value = textResult.textContent;
 });
+
+userInput.addEventListener('input', () => {
+    userInput.style.height = userInput.scrollHeight + 'px';
+    console.log('fddf');
+});
